@@ -11,6 +11,7 @@
     />
     <link href="/src/output.css" rel="stylesheet" />
     <script src="/script.js"></script>
+    <script src="/snipcart.js"></script>
   </head>
   <body>
     <nav class="py-2 px-4 bg-black text-white sticky top-0 z-10 flex">
@@ -71,7 +72,15 @@
               min="1"
             />
             <button
-              class="bg-black text-white uppercase px-6 py-4 cursor-pointer font-bold rounded-md hover:bg-zinc-700 transition-colors"
+              data-item-id="alpine-elegance"
+              data-item-price="79.99"
+              data-item-description="Crafted from the finest white leather,
+              this luxury bag is inspired by the serene and untouched splendor of
+              mountain peaks."
+              data-item-image="/assets/1.jpeg"
+              data-item-name="Alpine Elegance"
+              data-item-url="/"
+              class="snipcart-add-item bg-black text-white uppercase px-6 py-4 cursor-pointer font-bold rounded-md hover:bg-zinc-700 transition-colors"
             >
               Add to cart
             </button>
